@@ -1,0 +1,17 @@
+### DAY 18 SUMMARY:
+#### VARIABLE ASSIGNMENT:
+- Variable assignment is the process of assigning a variable a value and referencing another variable to that variable and this will give output as the same. When reassigning the first variable with the another value, then the output will be different for the two variable.
+- This is because only the first variable reassigned with the another variable but still the second variable holds the original value of the first variable. This variation is also because of the second variable only have the copy of the first variable but it is stored in the different places in the memory of the computer.
+
+#### IN ARRAY:
+- Variable reassignment in the array works differently, if an array(list) is assigned with numbers and that same array is assigned to another variable like referencing and then the output will be same and if again accessing the same first list with the index value and reassign value only to the index, then also the output will be same.
+- This is because, we are accessing the same memory where already first and the second array is stored and making changes in the same array, so the value also assigned to second variable too. Because the second variable is not assigned with the copy of the variable 1 but it is the same. The different output will come when i change the entire array of the first variable and reassign it to another set of numbers. The output will change for first and second variable this time.
+
+#### IN OBJECTS:
+- Variable reassignment in object also works as same as in array. For example, declaring a object named person with two properties like name and age and assigning the values of the properties, then again assigning the object to another variable with the name and age properties and the output will be same for the two persons(person1 and person2) and accessing the same property like age and reassigning the value with another age and then the value will be same and output of both the variable will be same. Reassigning the whole object into another value for the two properties. Now the output will be different as like the operation works for array. 
+
+#### FUNCTION (pass by value and pass by reference):
+- In function, there are two types of assigning a value to the function operation and they are pass by value and pass by reference. The pass by value is the one that is the changeable value and can change the values into another value again by calling the function another time and pass by reference is the one cannot be changed and the values are given as global variable and in this type we don't directly give the values while calling the function but only gives the variable that has the values and this is why it is called pass by reference, the value assigned is only the reference of the variable.
+
+#### DRIZZLE ORM:
+- Drizzle ORM is an Object-Relational Mapping (ORM) library for JavaScript and TypeScript, designed to work with SQL databases. It provides an simplified method for calling SQL databases, enabling developers to interact with the database using JavaScript or TypeScript code instead of writing SQL queries. Drizzle ORM is known for its simplicity, type safety, and developer-friendly features.
